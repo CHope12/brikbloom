@@ -2,27 +2,27 @@ import ServiceSection from "@/components/ServiceSection";
 import { useEffect, useState } from "react";
 
 const offMarketImage = {
-  src: "/images/offmarket.jpeg",
+  src: "/images/offmarket.JPEG",
   alt: "Off Market Image",
 }
 
 const developmentPlotImage = {
-  src: "/images/developmentplot.jpeg",
+  src: "/images/developmentplot.JPEG",
   alt: "Development Plot Image",
 }
 
 const strategicLandImage = {
-  src: "/images/strategicland.jpeg",
+  src: "/images/strategicland.JPEG",
   alt: "Strategic Land Image",
 }
 
 const tailoredImage = {
-  src: "/images/tailored.jpeg",
+  src: "/images/tailored.JPEG",
   alt: "Tailored Development Image",
 }
 
 const commercialImage = {
-  src: "/images/commercialtoresidential.jpeg",
+  src: "/images/commercialtoresidential.JPEG",
   alt: "Commercial to Residential Image",
 }
 
