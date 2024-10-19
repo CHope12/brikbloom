@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="relative w-full h-full overflow-hidden flex justify-center items-center">        
         <Image src={testimonialImage.src} layout="fill" objectFit="cover"/>      
         <div className="absolute w-full h-full flex flex-col justify-center items-center bg-black bg-opacity-30">
-          <h1 className="text-3xl md:text-5xl pt-10 text-center">Discover Why Our Clients Love Us</h1>
+          <h1 className="text-3xl md:text-5xl pt-10 text-center text-white">Discover Why Our Clients Love Us</h1>
           <div className="flex gap-4 justify-center items-center w-full max-w-7xl h-full px-10 text-center md:mt-0">
 
             {/* Testimonial 1 */}

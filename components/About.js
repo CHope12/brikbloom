@@ -12,7 +12,7 @@ const About = () => {
       <div className="relative w-full h-full overflow-hidden flex justify-center items-center">        
         <Image src={aboutImage.src} layout="fill" objectFit="cover"/>      
         <div className="absolute w-full h-full flex justify-center items-center bg-black bg-opacity-30">
-          <h1 className="text-4xl md:text-5xl text-center">The Story Behind Brikbloom</h1>
+          <h1 className="text-4xl md:text-5xl text-center text-white">The Story Behind Brikbloom</h1>
         </div>
       </div>      
     </div>
