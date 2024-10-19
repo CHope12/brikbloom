@@ -4,7 +4,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <div className="w-full h-28 bg-white flex flex-col justify-center items-center">
-      <div className="h-28 text-2xl text-slate-600 flex justify-center items-center">
+      <div className="h-28 text-2xl md:text-3xl text-slate-600 flex justify-center items-center">
         <h1>Brikbloom Property Sourcing</h1>      
       </div>
       {/*}
