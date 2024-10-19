@@ -10,7 +10,7 @@ const How = () => {
       </div>      
 
       {/* Content area */}
-      <div className="flex flex-col justify-center w-full">
+      <div className="flex flex-col justify-center items-center w-full">
       <h3 className="text-2xl text-gray-700 text-center md:h-10">Tailored Sourcing</h3>      
       <div className="flex flex-col md:flex-row justify-center items-start w-full max-w-7xl px-4 md:px-10 text-center">
         <div className="bg-white p-6 flex flex-col justify-center items-center gap-4 w-full md:w-1/3">

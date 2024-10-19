@@ -62,7 +62,7 @@ const Services = () => {
     <div className="flex flex-col justify-center items-center w-full">
     <div className="flex flex-col justify-center w-full max-w-7xl">
       {/* #1 Image / Text Section */}
-      <ServiceSection img={offMarketImage.src} imgBefore={imgOrder[0]} content={
+      <ServiceSection img={offMarketImage.src} alt={offMarketImage.alt} imgBefore={imgOrder[0]} content={
         <>
           <h3 className="text-[22px] md:text-2xl text-black py-6">Off-Market Property Deals</h3>
           <p className="text-lg">Brikbloom has privileged access to a network of off-market property opportunities that are not available on the open market. These exclusive deals are ideal for developers looking to secure prime assets with minimal competition.</p>
@@ -76,7 +76,7 @@ const Services = () => {
       }/>
 
       {/* #2 Image / Text Section */}
-      <ServiceSection img={developmentPlotImage.src} imgBefore={imgOrder[1]} content={
+      <ServiceSection img={developmentPlotImage.src} alt={developmentPlotImage.alt} imgBefore={imgOrder[1]} content={
         <>
           <h3 className="text-2xl text-black py-6">Development Plot Sourcing</h3>
           <p className="text-lg">We target sites with potential for high-value development, ensuring  each plot you consider is thoroughly analysed for its planning potential and financial viability.</p>
@@ -90,7 +90,7 @@ const Services = () => {
       }/>
 
       {/* #3 Image / Text Section */}
-      <ServiceSection img={tailoredImage.src} imgBefore={imgOrder[2]} content={
+      <ServiceSection img={tailoredImage.src} alt={tailoredImage.alt} imgBefore={imgOrder[2]} content={
         <>      
           <h3 className="text-2xl text-black py-6">Tailored Development Sourcing</h3>
           <p className="text-lg">We understand that property developers often have specific criteria and ambitious goals. Our tailored sourcing service is designed to meet those exact needs by finding off-market land and development projects that align perfectly with your objectives.</p>
@@ -104,7 +104,7 @@ const Services = () => {
       }/> 
 
       {/* #4 Image / Text Section */}
-      <ServiceSection img={strategicLandImage.src} imgBefore={imgOrder[3]} content={
+      <ServiceSection img={strategicLandImage.src} alt={strategicLandImage.alt} imgBefore={imgOrder[3]} content={
         <>
           <h3 className="text-2xl text-black py-6">Strategic Land Development Opportunities</h3>
           <p className="text-lg">Brikbloom sources strategic land parcels with redevelopment potential. Whether you’re looking for urban plots, suburban land, or infill development sites, we analyse the potential for maximising value through residential or commercial projects.</p>
@@ -119,7 +119,7 @@ const Services = () => {
       
 
       {/* #5 Image / Text Section */}
-      <ServiceSection img={commercialImage.src} imgBefore={imgOrder[4]} content={
+      <ServiceSection img={commercialImage.src} alt={commercialImage.alt} imgBefore={imgOrder[4]} content={
         <>
           <h3 className="text-2xl text-black py-6">Commercial to Residential Conversions</h3>
           <p className="text-lg">Brikbloom excels in finding commercial buildings primed for conversion into residential properties. We identify opportunities that align with PD Rights and local planning regulations to create value where others might see limitations.</p>

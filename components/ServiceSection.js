@@ -1,12 +1,13 @@
 import Image from "next/image";
 
-const ServiceSection = ({ content, img, imgBefore }) => {
+const ServiceSection = ({ content, img, alt, imgBefore }) => {
 
   return (
     <div className="w-full flex flex-col md:flex-row justify-center items-center p-6">
       <div className={`w-full md:w-1/2 flex justify-center items-center relative ${imgBefore ? "block" : "hidden"}`}>
         <Image
           src={img}
+          alt={alt}
           width={0}
           height={0}
           sizes="100vw"
@@ -23,6 +24,7 @@ const ServiceSection = ({ content, img, imgBefore }) => {
       <div className={`w-full md:w-1/2 flex justify-center items-center relative ${imgBefore ? "hidden" : "block"}`}>
         <Image
           src={img}
+          alt={alt}
           width={0}
           height={0}
           sizes="100vw"
