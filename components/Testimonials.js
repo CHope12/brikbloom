@@ -24,32 +24,31 @@ const Testimonials = () => {
       fixedWidth: "33%",
     });
 
-    useEffect(() => {
-
-      function resize() {
-        if (window.innerWidth < 768) {
-          setSplideOptions({
-            type: "loop", // Loop back to the beginning when reaching the end
-            perPage: 1, // Number of items visible per page
-            perMove: 1, // Move one item at a time
-            rewind: true, // Rewind to start when the end is reached
-            pagination: false, // Enable pagination dots
-            width: "24rem",
-            fixedWidth: "100%",
-          });
-        } else {
-          setSplideOptions({
-            type: "loop", // Loop back to the beginning when reaching the end
-            perPage: 3, // Number of items visible per page
-            perMove: 1, // Move one item at a time
-            rewind: true, // Rewind to start when the end is reached
-            pagination: false, // Enable pagination dots
-            width: "80rem",
-            fixedWidth: "33%",
-          });
-        }
+    function resize() {
+      if (window.innerWidth < 768) {
+        setSplideOptions({
+          type: "loop", // Loop back to the beginning when reaching the end
+          perPage: 1, // Number of items visible per page
+          perMove: 1, // Move one item at a time
+          rewind: true, // Rewind to start when the end is reached
+          pagination: false, // Enable pagination dots
+          width: "24rem",
+          fixedWidth: "100%",
+        });
+      } else {
+        setSplideOptions({
+          type: "loop", // Loop back to the beginning when reaching the end
+          perPage: 3, // Number of items visible per page
+          perMove: 1, // Move one item at a time
+          rewind: true, // Rewind to start when the end is reached
+          pagination: false, // Enable pagination dots
+          width: "80rem",
+          fixedWidth: "33%",
+        });
       }
-      resize();
+    }
+
+    useEffect(() => {
 
       window.addEventListener("resize", resize);
       return () => {
