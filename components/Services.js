@@ -1,3 +1,4 @@
+"use client";
 import ServiceSection from "@/components/ServiceSection";
 import { useEffect, useState } from "react";
 
