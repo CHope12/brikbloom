@@ -3,27 +3,27 @@ import ServiceSection from "@/components/ServiceSection";
 import { useEffect, useState } from "react";
 
 const offMarketImage = {
-  src: "/images/offmarket.JPEG",
+  src: "/images/offmarket.jpg",
   alt: "Off Market Image",
 }
 
 const developmentPlotImage = {
-  src: "/images/developmentplot.JPEG",
+  src: "/images/developmentplot.jpg",
   alt: "Development Plot Image",
 }
 
 const strategicLandImage = {
-  src: "/images/strategicland.JPEG",
+  src: "/images/strategicland.jpg",
   alt: "Strategic Land Image",
 }
 
 const tailoredImage = {
-  src: "/images/tailored.JPEG",
+  src: "/images/tailored.jpg",
   alt: "Tailored Development Image",
 }
 
 const commercialImage = {
-  src: "/images/commercialtoresidential.JPEG",
+  src: "/images/commercialtoresidential.jpg",
   alt: "Commercial to Residential Image",
 }
 
@@ -97,7 +97,7 @@ const Services = () => {
           <p className="text-lg">We understand that property developers often have specific criteria and ambitious goals. Our tailored sourcing service is designed to meet those exact needs by finding off-market land and development projects that align perfectly with your objectives.</p>
           <p className="text-lg font-bold pt-6 pb-1">Benefits:</p>
           <ul className="text-left">
-            <li><span className="font-bold">• Custom Strategies:</span> Whether it’s maximizing PD Rights, identifying large-scale development opportunities, or sourcing land for multi-phase projects, we tailor our search to meet your goals. </li>
+            <li><span className="font-bold">• Custom Strategies:</span> Whether it’s maximising PD Rights, identifying large-scale development opportunities, or sourcing land for multi-phase projects, we tailor our search to meet your goals. </li>
             <li><span className="font-bold">• Access to Off-Market Deals:</span> Our extensive network allows us to find exclusive, off-market opportunities that offer untapped potential. </li>
             <li><span className="font-bold">• Planning & Financial Due Diligence:</span> Every site we present is backed by meticulous planning and financial viability checks, ensuring you can proceed with confidence.</li>
           </ul>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const heroImage = {
-  src: "/images/hero.jpg",
+  src: "/images/hero.jpeg",
   alt: "Hero Image",
 }
 
