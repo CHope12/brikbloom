@@ -19,9 +19,9 @@ const Contact = () => {
         <h2 className="text-xl md:text-2xl text-gray-800">Ready to Bloom? Let's Talk!</h2>
         <form action="https://api.web3forms.com/submit" method="POST" className="flex flex-col w-full gap-4 text-gray-800">
           <input type="hidden" name="access_key" value={accessKey} />
-          <input type="text" placeholder="Name / Company*" required className="w-full border rounded-sm border-gray-200 px-4 py-2"/>
-          <input type="email" placeholder="Email*" required className="w-full border rounded-sm border-gray-200 px-4 py-2"/>
-          <input type="tel" placeholder="Phone*" required className="w-full border rounded-sm border-gray-200 px-4 py-2"/>
+          <input type="text" name="name" placeholder="Name / Company*" required className="w-full border rounded-sm border-gray-200 px-4 py-2"/>
+          <input type="email" name="email" placeholder="Email*" required className="w-full border rounded-sm border-gray-200 px-4 py-2"/>
+          <input type="tel" name="tel" placeholder="Phone*" required className="w-full border rounded-sm border-gray-200 px-4 py-2"/>
           <textarea 
             name="message"
             cols="30" 
